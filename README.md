@@ -1,6 +1,7 @@
 ### LICENSE
 
 ```
+#!text
 Software License Agreement (BSD License)
 
 Copyright (c) 2013-, Filippo Basso and Matteo Munaro
@@ -49,13 +50,13 @@ to the feature weight. The written number, instead, represents the volume of the
 
  For Online Adaboost, we used our implementation of the algorithm described in:
  
- [1] H. Grabner and H. Bischof. _On-line boosting and vision._
- 	   In Proc. of the IEEE Conference on Computer Vision and Pattern Recognition, pages 260–267, Washington, DC, USA, 2006.
+ [1] H. Grabner and H. Bischof. __On-line boosting and vision.__
+ 	   _In Proc. of the IEEE Conference on Computer Vision and Pattern Recognition, pages 260–267, Washington, DC, USA, 2006._
 
  For the color features, we used the original implementation described in:
  
- [2] F. Basso, M. Munaro, S. Michieletto and E. Menegatti. _Fast and robust multi-people tracking from RGB-D data for a mobile robot._
-     In Proceedings of the 12th Intelligent Autonomous Systems (IAS) Conference, Jeju Island (Korea), 2012.
+ [2] F. Basso, M. Munaro, S. Michieletto and E. Menegatti. __Fast and robust multi-people tracking from RGB-D data for a mobile robot.__
+     _In Proceedings of the 12th Intelligent Autonomous Systems (IAS) Conference, Jeju Island (Korea), 2012._
 
  If you use part of this code, please cite [2].
  
@@ -72,6 +73,7 @@ Tested with OpenCV 2.3.X and 2.4.X on Ubuntu 12.04 LTS.
 
 ### DEMO APPLICATION
 After building the code, you have to go to the `bin` folder and type:
+
 ```
 ./demo_adaboost
 ```
