@@ -58,8 +58,9 @@ to the feature weight. The written number, instead, represents the volume of the
 ### BUILDING 
 This package needs the open source computer vision library OpenCV.
 Once you installed OpenCV, you should go to the package directory and type:
- 1. `cmake .`
- 2. `make`
+
+1. `cmake .`
+2. `make`
 
 Tested with OpenCV 2.3.X and 2.4.X on Ubuntu 12.04 LTS.
 
