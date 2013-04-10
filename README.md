@@ -1,5 +1,6 @@
 ### LICENSE
 
+```
 Software License Agreement (BSD License)
 
 Copyright (c) 2013-, Filippo Basso and Matteo Munaro
@@ -32,6 +33,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+```
 
 ### DESCRIPTION
 This package contains a library implementing the Online Adaboost algorithm and a demo file showing 
@@ -46,26 +48,32 @@ Moreover, the mean color value of the most weighted features is shown in a histo
 to the feature weight. The written number, instead, represents the volume of the corresponding parallelepiped.
 
  For Online Adaboost, we used our implementation of the algorithm described in:
- [1] H. Grabner and H. Bischof. On-line boosting and vision.
+ 
+ [1] H. Grabner and H. Bischof. _On-line boosting and vision._
  	   In Proc. of the IEEE Conference on Computer Vision and Pattern Recognition, pages 260–267, Washington, DC, USA, 2006.
 
  For the color features, we used the original implementation described in:
- [2] F. Basso, M. Munaro, S. Michieletto and E. Menegatti. Fast and robust multi-people tracking from RGB-D data for a mobile robot. 
+ 
+ [2] F. Basso, M. Munaro, S. Michieletto and E. Menegatti. _Fast and robust multi-people tracking from RGB-D data for a mobile robot._
      In Proceedings of the 12th Intelligent Autonomous Systems (IAS) Conference, Jeju Island (Korea), 2012.
 
  If you use part of this code, please cite [2].
  
 ### BUILDING 
-This package needs the open source computer vision library OpenCV.
+This package needs the open source computer vision library [OpenCV](http://opencv.org/).
 Once you installed OpenCV, you should go to the package directory and type:
 
-1. `cmake .`
-2. `make`
+```
+cmake .
+make
+```
 
 Tested with OpenCV 2.3.X and 2.4.X on Ubuntu 12.04 LTS.
 
 ### DEMO APPLICATION
-After building the code, you have to go to the "bin" folder and type:
+After building the code, you have to go to the `bin` folder and type:
+```
 ./demo_adaboost
+```
 
 
